@@ -1,4 +1,5 @@
-export const SELECT_QUERY = "SELECT * FROM books;";
+//THis is the Book Query
+export const SELECT_QUERY = "SELECT * FROM books";
 export const INSERT_QUERY =
   "INSERT INTO books (`title`,`desc`,`cover`,`price`) VALUES (?)";
 export const DELETE_QUERY = "DELETE FROM books WHERE id = ?";
